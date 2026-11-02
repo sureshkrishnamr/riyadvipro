@@ -37,7 +37,7 @@ function AdminDashboard() {
 
         // 1. Fetch dashboard statistics
         const statsResponse = await axios.get(
-          "http://localhost:3000/api/admin/stats",
+          "https://riyadvipro.onrender.com/api/admin/stats",
           config
         );
 
@@ -45,7 +45,7 @@ function AdminDashboard() {
 
         // 2. Fetch contact messages
         const contactsResponse = await axios.get(
-          "http://localhost:3000/api/admin/contacts",
+          "https://riyadvipro.onrender.com/api/admin/contacts",
           config
         );
 
@@ -53,7 +53,7 @@ function AdminDashboard() {
 
         // 3. Fetch health checkup requests
         const healthResponse = await axios.get(
-          "http://localhost:3000/api/admin/health-checkups",
+          "https://riyadvipro.onrender.com/api/admin/health-checkups",
           config
         );
 

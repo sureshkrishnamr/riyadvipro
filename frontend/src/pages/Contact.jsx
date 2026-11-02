@@ -40,7 +40,7 @@ const Contact = () => {
       console.log(form);
 
       const response = await axios.post(
-        "http://localhost:3000/api/contact/",
+        "https://riyadvipro.onrender.com/api/contact/",
         form,
       );
       setStatus({

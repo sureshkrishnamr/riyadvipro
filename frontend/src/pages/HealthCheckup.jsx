@@ -191,7 +191,7 @@ function HealthCheckup() {
       console.log(formData);
       
       const response = await axios.post(
-        "http://localhost:3000/api/health-checkup/",
+        "https://riyadvipro.onrender.com/api/health-checkup/",
         formData
       );
 

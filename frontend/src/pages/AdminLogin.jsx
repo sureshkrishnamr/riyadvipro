@@ -30,7 +30,7 @@ function AdminLogin() {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/admin/login",
+        "https://riyadvipro.onrender.com/api/admin/login",
         formData
       );
 
